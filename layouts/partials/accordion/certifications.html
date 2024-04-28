@@ -1,0 +1,28 @@
+{{ if .Site.Params.certifications.types }}
+{{ range.Site.Params.certifications.types }}
+{{ $type := . }}
+<h4 style="text-decoration: underline;">{{ $type }}</h4>
+{{- range $.Site.Params.certifications.list -}}
+{{ if eq $type .type }}
+{{- $this_certifications := . -}}
+<!-- <p class="foo indent-8"> -->  <!-- Comment out to get rid of indentz -->
+
+  {{- range $.Site.Params.certifications.format -}}
+  {{- partial "accordion/supportingPartials/addTitle" (dict "all" $this_certifications "ind" .) -}}
+  {{- end -}}
+</p>
+{{ end }}
+{{- end -}}
+{{ end }}
+
+{{ else }}
+
+{{- range $.Site.Params.certifications.list -}}
+{{- $this_certifications := . -}}
+<p class="bar -indent-8">
+  {{- range $.Site.Params.certifications.format -}}
+  {{- partial "accordion/supportingPartials/addTitle" (dict "all" $this_certifications "ind" .) -}}
+  {{- end -}}
+</p>
+{{ end }}
+{{ end }}

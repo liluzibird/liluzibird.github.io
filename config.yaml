@@ -1,0 +1,207 @@
+baseURL: https://liluzibird.dev/
+languageCode: en-us
+build:
+  writeStats: true
+params:
+  title: Liluzibird's Nest
+  author: Albert Huynh
+  description: My personal website
+  copyright: >-
+    powered by [hugo](https://gohugo.io/)
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  favicons:
+    use: true
+    metas: |2-
+              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+              <link rel="manifest" href="site.webmanifest">
+              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+              <link rel="shortcut icon" href="favicon.ico">
+
+  profile:
+    name: "Albert Huynh"
+    tagline: nerd
+    location: "US of A"
+    photo: profile.jpg
+  social:
+    title: Links
+    list:
+      - icon: fab fa-linkedin-in
+        url: "https://linkedin.com/in/albert-huynh-50658b176"
+        title: LinkedIn
+      # - icon: fab fa-stack-overflow
+      #   url: "#"
+      #   title: StackOverflow
+      - icon: fab fa-github
+        url: "https://github.com/liluzibird"
+        title: GitHub
+      # - icon: fab fa-twitter
+      #   url: "#"
+      #   title: Twitter
+      # - icon: fab fa-orcid
+      #   url: "#"
+      #   title: Orcid
+      # - icon: ai ai-google-scholar
+      #   url: "#"
+      #   title: Google Scholar
+      # - icon: fab fa-researchgate
+      #   url: "#"
+      #   title: ResearchGate
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: experience
+    - item: education
+    - item: certifications
+    - item: project
+    - item: skill
+    - item: hobby
+  aboutme:
+    title: About Me
+    icon: fas fa-user
+    description: Computer science student currently studying at Santa Ana College with an interest in topics in cybersecurity and network security. Transferring to California State Polytechnic University, Pomona in Fall 2024, to complete the Computer Science B.S degree and learn more about information security. Currently looking for an entry job in IT to get my foot in the door.
+  experience:
+    title: Experiences
+    icon: fas fa-briefcase
+    list:
+      - position: CyberPatriots Mentor
+        dates: 2022 - 2024
+        company: Santa Ana College
+        url: "https://cybersac.readthedocs.io/"
+        details: |1-
+            - Collaborated with professors and fellow IT support professionals as a cohesive team to provide guidance and support to local high school USAF CyberPatriot teams.
+            - Mentored and guided a team of CyberPatriot students in developing critical IT skills and knowledge to compete in national cybersecurity competitions.
+            - Provided technical support and troubleshooting assistance to CyberPatriot participants, ensuring the smooth operation of their computer systems and networks.
+            - Created custom computer hardening scripts for both Linux and Microsoft systems, specifically tailored for training and competition rounds, ensuring the teams were well-prepared and equipped to handle cybersecurity challenges.
+            - Developed comprehensive documentation on computer security methods, delivering engaging presentations and interactive lectures to the teams, fostering their understanding and proficiency in the subject matter to 100+ students.
+            - Conducted training sessions on cybersecurity best practices, network security, and incident response protocols to help build the participants' understanding of IT support principles.
+      - position: Information Technology Services Internship
+        dates: 2021-2022
+        company: Santa Ana Unified School District
+        url: "https://sausd.us/tech"
+        details: |1-
+            - Collaborated across ITS tech support, networking, admin, and programming divisions.
+            - Swiftly resolved technical issues for staff and students, ensuring seamless operations.
+            - Implemented rigorous data removal practices in accordance with ISO/IEC 27001:2022 standards.
+            - Conducted troubleshooting, hard drive wipes, and account removals from MDM and GP.
+            - Achieved successful technical issue resolution, resulting in enhanced system performance and heightened user satisfaction.
+            - Maintained an outstanding 99% satisfaction rating through excellent interpersonal skills and prompt solutions.
+            - Performed 30+ hardware and software repairs daily.
+
+  education:
+    title: Education
+    icon: fas fa-graduation-cap
+    list:
+      - degree: AS-T Computer Science
+        school: Santa Ana College
+        dates: 2022 - 2024 (Expected)
+        details: |
+            Participated and held leadership positions in: Computer Science Club, Women In Computer Science (ICC Representative), Society of Women Engineers, Cybersecurity Club, and Mu Alpha Theta (Secretary).
+        # thesis_title: |
+        #   Studying computer science and looking to transfer to Cal Poly
+        #   Pomona's Computer Science program where I hope to specialize in cybersecurity.
+        #     - Computer Science Club
+        #     - Women In Computer Science (ICC Representative)
+        #     - Society of Women Engineers
+        #     - Cybersecurity Club
+        #     - Mu Alpha Theta (Secretary)
+        #thesis_url: "#"
+      - degree: High School Diploma
+        school: Middle College High School
+        dates: 2018 - 2022
+        details: Participated in and held leadership positions in ASB, NHS, Study Buddies (President), ESports (IGL for CS:GO, Valorant, Rocket League)
+  certifications:
+    title: Certifications
+    icon: fas fa-book
+    format:
+      - date
+      - title
+      - authors
+      - journal
+    types:
+      - CompTIA A+
+      - CompTIA ITF+
+      - Google IT Support
+      - 'MTA: Windows Operating System Fundamentals'
+      - 'MTA: Mobility and Device Fundamentals'
+    list:
+      - title: 2022-Present
+        authors: ""
+        date: ""
+        journal: Able to perform critical IT support tasks including device configuration, data backup and recovery,
+            and operating system configuration. CompTIA A+ certified professionals have demonstrated baseline
+            security skills for IT support roles and are able to detect and remove malware, address privacy
+            concerns, and troubleshoot core service challenges.
+        url: "https://credly.com/badges/35719134-6875-4892-ad60-7c49f5ccfce6/"
+        type: CompTIA A+
+
+      - title: 2019-Present
+        authors: ""
+        date: ""
+        journal: Possess the knowledge and skills required to identify and explain the basics of computing,
+            IT infrastructure, application and software, software development, database fundamentals, and
+            security. These IT candidates have demonstrated the ability to install software, establish basic
+            network connectivity, and identify and prevent basic security risks.
+        url: "https://credly.com/badges/ff6963e9-092b-4854-80ee-ea9ef7a49a4c/"
+        type: CompTIA ITF+
+
+      - title: 2023-Present
+        authors: ""
+        date: ""
+        journal: Completed five-courses, developed by Google, that include hands-on, practice-based assessments
+            and are designed to prepare them for entry-level roles in IT support. They are competent in foundational
+            skills, including troubleshooting and customer service, networking, operating systems, system administration,
+            and security.
+        url: "https://coursera.org/account/accomplishments/specialization/certificate/XP2C9U335FPT"
+        type: Google IT Support
+
+      - title: 2021-Present
+        authors: ""
+        date: ""
+        journal: Demonstrated fundamental knowledge of Operating System Configurations, Installing and Upgrading Client Systems, Managing Applications, Managing Files and Folders, Managing Devices, and Operating System Maintenance. The MTA program provides an appropriate entry point to a future career in technology.
+        url: "https://credly.com/badges/eddca690-6311-4fa3-83d5-d90ed6c0e011"
+        type: 'MTA: Windows Operating System Fundamentals'
+
+      - title: 2021-Present
+        authors: "\n"
+        date: ""
+        journal: Demonstrated fundamental Windows devices and mobility knowledge and skills. The MTA program provides an appropriate entry point to a future career in technology.
+        url: "https://credly.com/badges/4ddb6034-e312-427e-888e-9e06c44a724a"
+        type: 'MTA: Mobility and Device Fundamentals'
+        
+  project:
+    title: Projects
+    icon: fas fa-project-diagram
+    list:
+      - title: Exploit CVEs on a Pfsense Firewall
+        url: "https://tube.tchncs.de/w/h5XGtUxS64nBMd8YvMZgm7"
+        description: Using Kali Linux to attack a pfsense router using the shellshock vulnerability.Description of the project
+      - title: Set up a simulated company network
+        url: "#"
+        description: With a group of IT practitioners, create a star topology network with a server client and 4+ PCs
+  skill:
+    title: Skills
+    panelId: skill-panel
+    icon: fas fa-cogs
+    list:
+      - skill: C++, Java
+        skillrating: 70
+      - skill: Python, JavaScript, HTML, CSS
+        skillrating: 60
+      - skill: Bash, Batch
+        skillrating: 50
+  hobby:
+    title: Hobbies
+    icon: fas fa-gamepad
+    list:
+      - hobby: Cooking
+      - hobby: Hiking
+      - hobby: Biking
+      - hobby: Yoyoing
+      - hobby: Lockpicking
+      - hobby: Scubadiving
+      - hobby: Gaming...
