@@ -39,6 +39,11 @@ params:
       - icon: fab fa-github
         url: "https://github.com/liluzibird"
         title: GitHub
+
+      - icon: fas fa-file-pdf
+        url: "resume.pdf"
+        title: Resume
+        
       # - icon: fab fa-twitter
       #   url: "#"
       #   title: Twitter

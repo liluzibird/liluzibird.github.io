@@ -4,23 +4,8 @@
     <title>Categories on </title>
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Diam Aliqua</title>
-      <link>http://localhost:1313/categories/diam-aliqua/</link>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/diam-aliqua/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fringilla</title>
-      <link>http://localhost:1313/categories/fringilla/</link>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/fringilla/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
