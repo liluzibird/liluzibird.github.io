@@ -35,7 +35,7 @@ params:
         title: LinkedIn
       # - icon: fab fa-stack-overflow
       #   url: "#"
-      #   title: StackOverflow
+      #   title: StackOverflow 
       - icon: fab fa-github
         url: "https://github.com/liluzibird"
         title: GitHub
